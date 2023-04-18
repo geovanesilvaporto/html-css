@@ -1,0 +1,11 @@
+@charset "UTF-8"
+body{
+    background-color:aqua;
+    ont-family: 'Times New Roman', Times, serif;
+}
+ h1{
+    color: rgba(255, 0, 0, 0.205);
+ }
+ h2{
+    color: rgb(255, 145, 0);
+ }
