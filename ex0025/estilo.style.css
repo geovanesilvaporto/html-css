@@ -1,0 +1,47 @@
+@charset "UTF-8"
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body, ul{
+    margin: 0px;
+    padding: 0px;
+}  
+a{
+    color: black;
+    text-decoration: none;
+
+}
+a:hover{
+    background: rgb(41, 40, 40);
+}
+#header{
+    display: block;
+    text-align: center;
+    margin: 10px;
+    background: rgb(128, 127, 127);
+}
+#menu{
+    display: block;
+margin: 10px;
+list-style: none;
+}
+li{
+margin: 10px;
+}
+#menu a{
+    display: block;
+    padding: .5rem;
+}
+#btn-mobile{
+    display: none;
+}
+@media (max-width: 600px){
+    #btn-mobile{
+        display: block;
+    }
+}
+#menu{
+    display: none;
+}
