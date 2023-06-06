@@ -17,10 +17,10 @@ header > h1{
 span{
     display: none;
 }
-menu > ul{
+span > ul{
     list-style-type: none;
 }
-menu > ul > li > a{
+span > ul > li > a{
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -29,7 +29,7 @@ menu > ul > li > a{
     text-align: center;
     border: 2px solid rgb(156, 155, 155);
 }
-menu > ul > li > a:hover{
+span > ul > li > a:hover{
     background-color: rgb(143, 137, 137);
 }
 main{
